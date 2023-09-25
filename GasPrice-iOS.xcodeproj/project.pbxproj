@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7C03BFF2AC1CC4D00A97EAB /* GasPrice_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03BFE2AC1CC4D00A97EAB /* GasPrice_iOSApp.swift */; };
+		C7C03C012AC1CC4D00A97EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03C002AC1CC4D00A97EAB /* ContentView.swift */; };
+		C7C03C032AC1CC4D00A97EAB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03C022AC1CC4D00A97EAB /* Item.swift */; };
+		C7C03C052AC1CC5100A97EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C03C042AC1CC5100A97EAB /* Assets.xcassets */; };
+		C7C03C082AC1CC5100A97EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C03C072AC1CC5100A97EAB /* Preview Assets.xcassets */; };
+		C7C03C122AC1CC5100A97EAB /* GasPrice_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03C112AC1CC5100A97EAB /* GasPrice_iOSTests.swift */; };
+		C7C03C1C2AC1CC5200A97EAB /* GasPrice_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03C1B2AC1CC5200A97EAB /* GasPrice_iOSUITests.swift */; };
+		C7C03C1E2AC1CC5200A97EAB /* GasPrice_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C03C1D2AC1CC5200A97EAB /* GasPrice_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7C03C0E2AC1CC5100A97EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C03BF32AC1CC4D00A97EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C03BFA2AC1CC4D00A97EAB;
+			remoteInfo = "GasPrice-iOS";
+		};
+		C7C03C182AC1CC5200A97EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C03BF32AC1CC4D00A97EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C03BFA2AC1CC4D00A97EAB;
+			remoteInfo = "GasPrice-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7C03BFB2AC1CC4D00A97EAB /* GasPrice-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GasPrice-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C03BFE2AC1CC4D00A97EAB /* GasPrice_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPrice_iOSApp.swift; sourceTree = "<group>"; };
+		C7C03C002AC1CC4D00A97EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7C03C022AC1CC4D00A97EAB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C7C03C042AC1CC5100A97EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7C03C072AC1CC5100A97EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7C03C0D2AC1CC5100A97EAB /* GasPrice-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GasPrice-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C03C112AC1CC5100A97EAB /* GasPrice_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPrice_iOSTests.swift; sourceTree = "<group>"; };
+		C7C03C172AC1CC5200A97EAB /* GasPrice-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GasPrice-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C03C1B2AC1CC5200A97EAB /* GasPrice_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPrice_iOSUITests.swift; sourceTree = "<group>"; };
+		C7C03C1D2AC1CC5200A97EAB /* GasPrice_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPrice_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7C03BF82AC1CC4D00A97EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C0A2AC1CC5100A97EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C142AC1CC5200A97EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7C03BF22AC1CC4D00A97EAB = {
+			isa = PBXGroup;
+			children = (
+				C7C03BFD2AC1CC4D00A97EAB /* GasPrice-iOS */,
+				C7C03C102AC1CC5100A97EAB /* GasPrice-iOSTests */,
+				C7C03C1A2AC1CC5200A97EAB /* GasPrice-iOSUITests */,
+				C7C03BFC2AC1CC4D00A97EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C03BFC2AC1CC4D00A97EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C03BFB2AC1CC4D00A97EAB /* GasPrice-iOS.app */,
+				C7C03C0D2AC1CC5100A97EAB /* GasPrice-iOSTests.xctest */,
+				C7C03C172AC1CC5200A97EAB /* GasPrice-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C03BFD2AC1CC4D00A97EAB /* GasPrice-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C7C03BFE2AC1CC4D00A97EAB /* GasPrice_iOSApp.swift */,
+				C7C03C002AC1CC4D00A97EAB /* ContentView.swift */,
+				C7C03C022AC1CC4D00A97EAB /* Item.swift */,
+				C7C03C042AC1CC5100A97EAB /* Assets.xcassets */,
+				C7C03C062AC1CC5100A97EAB /* Preview Content */,
+			);
+			path = "GasPrice-iOS";
+			sourceTree = "<group>";
+		};
+		C7C03C062AC1CC5100A97EAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7C03C072AC1CC5100A97EAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7C03C102AC1CC5100A97EAB /* GasPrice-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C03C112AC1CC5100A97EAB /* GasPrice_iOSTests.swift */,
+			);
+			path = "GasPrice-iOSTests";
+			sourceTree = "<group>";
+		};
+		C7C03C1A2AC1CC5200A97EAB /* GasPrice-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C03C1B2AC1CC5200A97EAB /* GasPrice_iOSUITests.swift */,
+				C7C03C1D2AC1CC5200A97EAB /* GasPrice_iOSUITestsLaunchTests.swift */,
+			);
+			path = "GasPrice-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7C03BFA2AC1CC4D00A97EAB /* GasPrice-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C03C212AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOS" */;
+			buildPhases = (
+				C7C03BF72AC1CC4D00A97EAB /* Sources */,
+				C7C03BF82AC1CC4D00A97EAB /* Frameworks */,
+				C7C03BF92AC1CC4D00A97EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GasPrice-iOS";
+			productName = "GasPrice-iOS";
+			productReference = C7C03BFB2AC1CC4D00A97EAB /* GasPrice-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7C03C0C2AC1CC5100A97EAB /* GasPrice-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C03C242AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOSTests" */;
+			buildPhases = (
+				C7C03C092AC1CC5100A97EAB /* Sources */,
+				C7C03C0A2AC1CC5100A97EAB /* Frameworks */,
+				C7C03C0B2AC1CC5100A97EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C03C0F2AC1CC5100A97EAB /* PBXTargetDependency */,
+			);
+			name = "GasPrice-iOSTests";
+			productName = "GasPrice-iOSTests";
+			productReference = C7C03C0D2AC1CC5100A97EAB /* GasPrice-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7C03C162AC1CC5200A97EAB /* GasPrice-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C03C272AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOSUITests" */;
+			buildPhases = (
+				C7C03C132AC1CC5200A97EAB /* Sources */,
+				C7C03C142AC1CC5200A97EAB /* Frameworks */,
+				C7C03C152AC1CC5200A97EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7C03C192AC1CC5200A97EAB /* PBXTargetDependency */,
+			);
+			name = "GasPrice-iOSUITests";
+			productName = "GasPrice-iOSUITests";
+			productReference = C7C03C172AC1CC5200A97EAB /* GasPrice-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C03BF32AC1CC4D00A97EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C7C03BFA2AC1CC4D00A97EAB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C7C03C0C2AC1CC5100A97EAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C7C03BFA2AC1CC4D00A97EAB;
+					};
+					C7C03C162AC1CC5200A97EAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C7C03BFA2AC1CC4D00A97EAB;
+					};
+				};
+			};
+			buildConfigurationList = C7C03BF62AC1CC4D00A97EAB /* Build configuration list for PBXProject "GasPrice-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C03BF22AC1CC4D00A97EAB;
+			productRefGroup = C7C03BFC2AC1CC4D00A97EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C03BFA2AC1CC4D00A97EAB /* GasPrice-iOS */,
+				C7C03C0C2AC1CC5100A97EAB /* GasPrice-iOSTests */,
+				C7C03C162AC1CC5200A97EAB /* GasPrice-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7C03BF92AC1CC4D00A97EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C03C082AC1CC5100A97EAB /* Preview Assets.xcassets in Resources */,
+				C7C03C052AC1CC5100A97EAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C0B2AC1CC5100A97EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C152AC1CC5200A97EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7C03BF72AC1CC4D00A97EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C03C012AC1CC4D00A97EAB /* ContentView.swift in Sources */,
+				C7C03C032AC1CC4D00A97EAB /* Item.swift in Sources */,
+				C7C03BFF2AC1CC4D00A97EAB /* GasPrice_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C092AC1CC5100A97EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C03C122AC1CC5100A97EAB /* GasPrice_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C03C132AC1CC5200A97EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C03C1E2AC1CC5200A97EAB /* GasPrice_iOSUITestsLaunchTests.swift in Sources */,
+				C7C03C1C2AC1CC5200A97EAB /* GasPrice_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7C03C0F2AC1CC5100A97EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C03BFA2AC1CC4D00A97EAB /* GasPrice-iOS */;
+			targetProxy = C7C03C0E2AC1CC5100A97EAB /* PBXContainerItemProxy */;
+		};
+		C7C03C192AC1CC5200A97EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C03BFA2AC1CC4D00A97EAB /* GasPrice-iOS */;
+			targetProxy = C7C03C182AC1CC5200A97EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7C03C1F2AC1CC5200A97EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7C03C202AC1CC5200A97EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C03C222AC1CC5200A97EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasPrice-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 998HSZS578;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7C03C232AC1CC5200A97EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasPrice-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 998HSZS578;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7C03C252AC1CC5200A97EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 998HSZS578;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasPrice-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasPrice-iOS";
+			};
+			name = Debug;
+		};
+		C7C03C262AC1CC5200A97EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 998HSZS578;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasPrice-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasPrice-iOS";
+			};
+			name = Release;
+		};
+		C7C03C282AC1CC5200A97EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 998HSZS578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GasPrice-iOS";
+			};
+			name = Debug;
+		};
+		C7C03C292AC1CC5200A97EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 998HSZS578;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estrhup.GasPrice-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GasPrice-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7C03BF62AC1CC4D00A97EAB /* Build configuration list for PBXProject "GasPrice-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C03C1F2AC1CC5200A97EAB /* Debug */,
+				C7C03C202AC1CC5200A97EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C03C212AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C03C222AC1CC5200A97EAB /* Debug */,
+				C7C03C232AC1CC5200A97EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C03C242AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C03C252AC1CC5200A97EAB /* Debug */,
+				C7C03C262AC1CC5200A97EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C03C272AC1CC5200A97EAB /* Build configuration list for PBXNativeTarget "GasPrice-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C03C282AC1CC5200A97EAB /* Debug */,
+				C7C03C292AC1CC5200A97EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C03BF32AC1CC4D00A97EAB /* Project object */;
+}
